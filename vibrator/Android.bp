@@ -14,11 +14,10 @@ cc_binary {
     cflags: ["-Wall", "-Werror", "-DMEIZU_HACK"],
     shared_libs: [
         "libbase",
-        "libhidlbase",
-        "libhidltransport",
         "liblog",
         "libutils",
         "libhardware",
+        "libhidlbase",
         "android.hardware.vibrator@1.0",
         "android.hardware.vibrator@1.1",
         "android.hardware.vibrator@1.2",
