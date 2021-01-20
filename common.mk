@@ -302,3 +302,7 @@ PRODUCT_PACKAGES += \
     libhidltransport.vendor \
     libhwbinder \
     libhwbinder.vendor
+
+# CameraGo
+PRODUCT_PACKAGES += \
+    CameraGo
